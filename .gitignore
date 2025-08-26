@@ -1,0 +1,124 @@
+# ----------------------
+# SISTEMA OPERACIONAL
+# ----------------------
+# Arquivos temporários do Linux/macOS/Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# ----------------------
+# EDITORES
+# ----------------------
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Vim/Neovim
+*.un~
+*.sw?
+.session
+.netrwhist
+
+# ----------------------
+# PYTHON
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# ----------------------
+# C / C++
+# ----------------------
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.lo
+*.la
+
+# Arquivos de build
+/Debug/
+/Release/
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ----------------------
+# Jupyter / Notebooks
+# ----------------------
+.ipynb_checkpoints/
+*.ipynb~
+
+# ----------------------
+# OUTROS LINGUAGENS (futuro)
+# ----------------------
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+/out/
+
+# Go
+bin/
+*.test
+
+# Node.js / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Rust
+/target/
+
+# ----------------------
+# GERAL PARA ESTUDOS
+# ----------------------
+# Não versionar binários gerados
+*.bin
+*.hex
+*.elf
+
+# Arquivos pessoais
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.zip
+*.tar.gz
+*.7z
+
+
+# ASDF
+.asdf/
